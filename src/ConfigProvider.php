@@ -4,7 +4,7 @@
  */
 declare(strict_types=1);
 
-namespace Cc\Stream;
+namespace Cc\OutputStream;
 
 use Zend\HttpHandlerRunner\Emitter\EmitterInterface;
 use Zend\HttpHandlerRunner\Emitter\SapiStreamEmitter;
