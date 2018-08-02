@@ -1,6 +1,6 @@
 includes:
     - vendor/phpstan/phpstan-phpunit/extension.neon
-    - vendor/phpstan/phpstan-strict-rulesw/rules.neon
+    - vendor/phpstan/phpstan-strict-rules/rules.neon
 parameters:
     fileExtensions:
         - php

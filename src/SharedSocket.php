@@ -4,10 +4,10 @@
  */
 declare(strict_types=1);
 
-namespace Cc\Stream;
+namespace Cc\OutputStream;
 
 interface SharedSocket
 {
     const PARENT = 0;
-    const CHILD = 1;
+    const CHILD  = 1;
 }
