@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cc\\Stream\\": "src/"
+            "Cc\\OutputStream\\": "src/"
         }
     },
     "scripts": {
