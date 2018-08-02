@@ -18,11 +18,7 @@
         "optimize-autoloader": true,
         "prepend-autoloader": true,
         "process-timeout": 5000,
-        "sort-packages": true,
-        "platform": {
-            "php": "7.1.0",
-            "ext-pcntl": "7.1.0"
-        }
+        "sort-packages": true
     },
     "require": {
         "php": "^7.1.0",
