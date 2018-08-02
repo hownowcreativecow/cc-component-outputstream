@@ -9,5 +9,5 @@ namespace Cc\Stream;
 interface SharedSocket
 {
     const PARENT = 0;
-    const CHILD = 1;
+    const CHILD  = 1;
 }
