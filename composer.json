@@ -1,5 +1,5 @@
 {
-    "name": "creativecow/cc-component-stream",
+    "name": "creativecow/cc-component-outputstream",
     "description": "Zend Diactoros stream for getting output from callback streamed to the browser using Zend HttpHandlerRunner",
     "type": "library",
     "license": "BSD-3-Clause",
@@ -9,7 +9,7 @@
         "streamed",
         "console-to-browser"
     ],
-    "homepage": "https://github.com/hownowcreativecow/cc-component-stream",
+    "homepage": "https://github.com/hownowcreativecow/cc-component-outputstream",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
@@ -18,7 +18,11 @@
         "optimize-autoloader": true,
         "prepend-autoloader": true,
         "process-timeout": 5000,
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "7.1.0",
+            "ext-pcntl": "7.1.0"
+        }
     },
     "require": {
         "php": "^7.1.0",
